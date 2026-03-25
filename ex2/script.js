@@ -5,3 +5,6 @@ const nomesProdutos = data.map((p)=> {
 })
 
 console.log(nomesProdutos)
+
+
+
