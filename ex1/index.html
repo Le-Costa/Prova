@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+   <div class="limitante"> 
+        <div id="principal">
+            <div id ="cabecalho" class="formatoCabecalho">
+            <h1>Painel de análise de produtos</h1>
+            </div>
+            <div id="AbaBotoes" class="formatoBotoes">
+                <input type="text" id="NomeProd" placeholder="Nome do produto" >
+                <input type="text" id="Preco" placeholder="Preço (R$)">
+                <input type="text" id="Quantidade" placeholder="Quantidade">
+            <button onclick ="AdicionarProd()">Adicionar Produto</button >  <!-- Criar funcao no js -->
+            </div> <!--  div do botao de adicionar -->
+            <div id="Cards"> 
+                <div class ="ProdMaisCaro">
+                    <div class="Retangulo"> Produto mais caro
+                    </div>
+                </div> <!--Produto mais caro-->
+                <div class="MaiorQtd">
+                    <div class="Retangulo"> Maior quantidade</div>
+                </div> <!--Maior quantidade-->
+                <div class = "ValorTotal">
+                    <div class="Retangulo">Valor total em estoque </div>
+                </div> <!--Valor total em estoque-->
+            </div>  <!--cards -->
+        </div>  <!--Principal-->      
+</div> <!--Quadrdo limitante-->
+</body>
+</html>
